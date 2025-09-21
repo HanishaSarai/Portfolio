@@ -255,7 +255,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://soft-druid-23e053.netlify.app/"
+          url: "hhttps://vibgorrwebsite.onrender.com/"
         }
         //  you can add extra buttons here.
       ]
