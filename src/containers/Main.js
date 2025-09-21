@@ -9,8 +9,8 @@ import StartupProject from "./StartupProjects/StartupProject";
 // import Achievement from "./achievement/Achievement";
 import Blogs from "./blogs/Blogs";
 import Footer from "../components/footer/Footer";
-import Talks from "./talks/Talks";
-import Podcast from "./podcast/Podcast";
+// import Talks from "./talks/Talks";
+// import Podcast from "./podcast/Podcast";
 import Education from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
@@ -19,6 +19,7 @@ import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
+import WorkExperiencefinal from "./workeperiencefinal/Workexperiencefinal";
 import "./Main.scss";
 
 const Main = () => {
@@ -56,16 +57,18 @@ const Main = () => {
             <StackProgress />
             <Education />
             <WorkExperience />
+            <WorkExperiencefinal/>
             <Projects />
             <StartupProject />
             {/* <Achievement /> */}
-            <Blogs />
-            <Talks />
+            {/* <Blogs /> */}
+            {/* <Talks /> */}
             <Twitter />
-            <Podcast />
+            {/* <Podcast /> */}
             <Profile />
             <Footer />
             <ScrollToTopButton />
+            
           </>
         )}
       </StyleProvider>

@@ -24,9 +24,10 @@ const illustration = {
 
 const greeting = {
   username: "Hanisha Sarai",
-  title: "Hi all, I'm Hanisha",
+  title: "Hi, I'm Hanisha Sarai",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 of building Web applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+   "I'm a passionate Full Stack Developer who loves creating modern, responsive, and user-friendly web and mobile applications. With strong expertise in JavaScript, React.js, Node.js, and React Native, I enjoy transforming ideas into real-world digital solutions. I thrive on tackling challenging problems, building scalable applications, and ensuring seamless user experiences. " +
+    "I am constantly exploring new technologies, frameworks, and best practices to stay ahead in the fast-paced world of software development. Beyond coding, I value collaboration, teamwork, and the opportunity to contribute to innovative projects that make a difference. " 
   ),
   resumeLink:
     "https://drive.google.com/file/d/1SJorSQ3dkXs8cjGPM9HpXNNuyb8x-Wi5/view", // Set to empty to hide the button
@@ -36,7 +37,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
+  github: "https://github.com/HanishaSarai",
   linkedin: "https://www.linkedin.com/in/hanisha-sarai-0a88752b6",
   gmail: "saadpasta70@gmail.com",
   // gitlab: "https://gitlab.com/saadpasta",
@@ -52,17 +53,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "I am a passionate Full Stack Developer skilled in front-end and back-end technologies, including HTML, CSS, JavaScript, React.js, Node.js, Express.js, and MongoDB, with Git & GitHub for version control. I also have experience in React Native and problem-solving with C++. I enjoy creating responsive, scalable applications and have built projects like a Full Stack Event Management website and a Full Stack Real Estate website.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "- Developed highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("- Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "- Integration of third party services such as Firebase/ AWS / Digital Ocean"
     )
   ],
-  image: require("./assets/images/mypic.jpeg"), // Add image here
+  image: require("./assets/images/hanisha pic.jpeg"), // Add image here
   useImage: true, // New property to control image usage
   display: true,
 
@@ -78,10 +79,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
+    // {
+    //   skillName: "sass",
+    //   fontAwesomeClassname: "fab fa-sass"
+    // },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -94,18 +95,18 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    // {
+    //   skillName: "swift",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
+    // {
+    //   skillName: "sql-database",
+    //   fontAwesomeClassname: "fas fa-database"
+    // },
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
@@ -115,13 +116,13 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "C++",
+      fontAwesomeClassname: "fab fa-cuttlefish"
     },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+    // {
+    //   skillName: "docker",
+    //   fontAwesomeClassname: "fab fa-docker"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -132,26 +133,25 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
+      schoolName: "Red & White Institute",
+      logo: require("./assets/images/randw.png"),
+      subHeader: "Full Stack Web Development",
+      duration: "March 2024 - September 2024",
+      
+    },
+    {
       schoolName: "Sal College Of Engineering",
       logo: require("./assets/images/salimage.png"),
       subHeader: "Bacelor's of Science in Computer Science",
       duration: "March 2022 - April 2026",
-      desc: "Actively involved in academic projects and research, developing skills in software development, data structures, and artificial intelligence.",
-      descBullets: [
-        "Collaborated with peers on machine learning projects and web applications",
-      "Published research papers on emerging technologies in computer science",
-      "Participated in hackathons and coding competitions, earning accolades"
-      ]
+      
     },
     {
       schoolName: "Vedant International School",
       logo: require("./assets/images/vedantlogo.png"),
       subHeader: "GSEB AND HSEB",
       duration: "September 2021 - April 2022",
-      desc: "Achieved top 10% rank, excelling in subjects like mathematics, physics, and computer science, laying a strong foundation for higher studies.",
-      descBullets: ["Completed advanced coursework in programming and problem-solving",
-      "Led school projects involving automation and robotics",
-      "Actively participated in science fairs and technology exhibitions"]
+      
     }
   ]
 };
@@ -163,15 +163,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "100%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "95%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "85%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -182,17 +182,7 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-    {
-      role: "E-commerce Associate",
-      company: "Talabat",
-      companylogo: require("./assets/images/talabatlogo.png"),
-      date: "November 2024 – Present",
-      desc: "Responsible for managing and optimizing product listings, ensuring accurate and engaging product information, and enhancing the online shopping experience.",
-      descBullets: [
-       "Gather product images and descriptions from online sources, ensuring quality and compliance with brand guidelines",
-        "Update and maintain product details, categories, and attributes in the company's e-commerce platform",
-      ]
-    },
+   
     {
       role: "Advanced Java Webinar",
       company: "Tops Technologies",
@@ -223,6 +213,26 @@ const workExperiences = {
     }
   ]
 };
+const workExperiencesfinal = {
+  display: true, //Set it to true to show workExperiences Section
+  experience: [
+    {
+      role: "Full Stack Developer",
+      company: "SUDARSANA ENTERPRENEURS UNITS",
+      companylogo: require("./assets/images/talabatlogo.png"),
+      date: "MAY 2025 - Present",
+      desc: "Responsible for designing and developing responsive web applications, building scalable backend systems, and ensuring smooth integration between frontend, backend, and databases to deliver optimized digital solutions.",
+      descBullets: [
+       "Developed and maintained web applications using React.js, Node.js, Express.js, and MongoDB",
+  "Designed intuitive, user-friendly, and responsive UI components for seamless customer experience",
+  "Implemented secure authentication, authorization, and API integrations to enhance functionality",
+  "Optimized application performance, scalability, and cross-platform compatibility",
+  "Collaborated with teams throughout the software development lifecycle, from planning to deployment",
+      ]
+    },
+    
+  ]
+};
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -238,6 +248,30 @@ const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
+    {
+      image: require("./assets/images/vibgyorimage.png" ),
+      projectName: "Vibgyor Events & Concepts Website",
+      projectDesc: "Developed a comprehensive Event Management Platform that allows users to explore event photos and videos, book consultations, and register for events. The website includes a dedicated admin panel where all form data (consultation, contact, booking) is stored and displayed for efficient management. The platform provides smooth navigation, a responsive UI, and secure backend integration.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://soft-druid-23e053.netlify.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/realestate.png" ),
+      projectName: "Real Estate Website",
+      projectDesc: "Built a dynamic Real Estate Website to showcase properties with images, descriptions, and pricing. The platform supports property search, filtering, and inquiry forms. Data is stored in the backend, and admins can manage property listings efficiently. The design focuses on a user-friendly interface and seamless navigation for both buyers and sellers.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://leafy-starburst-f1115b.netlify.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
     {
       image: require("./assets/images/boatpic.png" ),
       projectName: "Boat Website-Clone",
@@ -328,59 +362,59 @@ const achievementSection = {
 
 // Blogs Section
 
-const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+// const blogSection = {
+//   title: "Blogs",
+//   subtitle:
+//     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+//   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+//   blogs: [
+//     {
+//       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+//       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+//       description:
+//         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+//     },
+//     {
+//       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+//       title: "Why REACT is The Best?",
+//       description:
+//         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+//     }
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
 
 // Talks Sections
 
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
+// const talkSection = {
+//   title: "TALKS",
+//   subtitle: emoji(
+//     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+//   ),
 
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+//   talks: [
+//     {
+//       title: "Build Actions For Google Assistant",
+//       subtitle: "Codelab at GDG DevFest Karachi 2019",
+//       slides_url: "https://bit.ly/saadpasta-slides",
+//       event_url: "https://www.facebook.com/events/2339906106275053/"
+//     }
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
 
 // Podcast Section
 
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+// const podcastSection = {
+//   title: emoji("Podcast 🎙️"),
+//   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: false // Set false to hide this section, defaults to true
-};
+//   // Please Provide with Your Podcast embeded Link
+//   podcast: [
+//     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+//   ],
+//   display: false // Set false to hide this section, defaults to true
+// };
 
 // Resume Section
 const resumeSection = {
@@ -417,12 +451,13 @@ export {
   educationInfo,
   techStack,
   workExperiences,
+  workExperiencesfinal,
   openSource,
   bigProjects,
   achievementSection,
-  blogSection,
-  talkSection,
-  podcastSection,
+  // blogSection,
+  // talkSection,
+  // podcastSection,
   contactInfo,
   twitterDetails,
   isHireable,
