@@ -255,7 +255,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "hhttps://vibgorrwebsite.onrender.com/"
+          url: "https://vibgorrwebsite-lc8i-git-main-hanisha-sarais-projects.vercel.app/"
         }
         //  you can add extra buttons here.
       ]
